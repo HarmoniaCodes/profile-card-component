@@ -15,18 +15,18 @@ function Card(props) {
       </div>
       <hr></hr>
       <div className="stats">
-        <span className="subtext">
+        <div>
           <h1 className="info">{props.follows}</h1>
-          Followers
-        </span>
-        <span className="subtext">
+          <span className="subtext">Followers</span>
+        </div>
+        <div>
           <h1 className="info">{props.likes}</h1>
-          Likes
-        </span>
-        <span className="subtext">
+          <span className="subtext">Likes</span>
+        </div>
+        <div>
           <h1 className="info">{props.photos}</h1>
-          Photos
-        </span>
+          <span className="subtext">Photos</span>
+        </div>
       </div>
     </div>
   );
