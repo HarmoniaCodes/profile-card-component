@@ -27,8 +27,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/profile-card-component-reactjs-I3hNMdJ49J)
+- Live Site URL: [Add live site URL here](https://profile-card-component-seven-ochre-73.vercel.app/)
 
 ## My process
 

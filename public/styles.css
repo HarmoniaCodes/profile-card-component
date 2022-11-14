@@ -16,7 +16,7 @@ body {
 }
 
 h1 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: var(--desat-blue);
     letter-spacing: normal;
     margin-bottom: 0rem;
@@ -57,12 +57,12 @@ hr {
 .card-header {
     background-color: var(--dark-cyan);
     width: 100%;
-    height: 7rem;
+    height: 8rem;
     background-image: url("./images/bg-pattern-card.svg");
 }
 
 .card {
-    width: 25rem;
+    width: 20rem;
     background-color: white;
 }
 
@@ -93,6 +93,7 @@ hr {
 }
 
 .location {
+    font-size: 1rem;
     font-weight: 400;
     color: var(--dark-gray-blue);
     margin-top: 0.8rem;
