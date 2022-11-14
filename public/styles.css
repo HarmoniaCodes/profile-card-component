@@ -1,0 +1,129 @@
+:root {
+    /* Primary */
+    --dark-cyan: hsl(185, 75%, 39%);
+    --desat-blue: hsl(229, 23%, 23%);
+    --dark-gray-blue: hsl(227, 10%, 46%);
+    /* Neutral */
+    --dark-gray: hsl(0, 0%, 59%);
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: var(--desat-blue);
+    background-color: var(--dark-cyan);
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 1.2rem;
+    color: var(--desat-blue);
+    letter-spacing: normal;
+    margin-bottom: 0rem;
+    font-weight: 700;
+
+}
+
+hr {
+    background-color: var(--dark-gray);
+    height: 1px;
+    border: none;
+    opacity: 20%;
+}
+
+/* Styles for Containers and Card */
+.page-container {
+    height: 100vh;
+    display: flex;
+    background-color: var(--dark-cyan);
+    align-items: center;
+    justify-content: center;
+}
+
+.card-container {
+    width: fit-content;
+    background-color: white;
+    box-shadow: 0px 0px 2rem 1rem rgba(0, 0, 0, 0.2);
+    border-radius: 5%;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.card-header {
+    background-color: var(--dark-cyan);
+    width: 100%;
+    height: 7rem;
+    background-image: url("./images/bg-pattern-card.svg");
+}
+
+.card {
+    width: 25rem;
+    background-color: white;
+}
+
+/* Styles for contents of card */
+.subtext {
+    color: var(--dark-gray-blue);
+    font-size: 0.7rem;
+    letter-spacing: 0.1rem;
+    font-weight: 400;
+}
+
+.card img {
+    border-radius: 50%;
+    border: 0.5rem solid white;
+    margin-top: -3rem;
+
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: 3fr 1fr 3fr;
+    padding: 0 1.5rem 1.5rem 1rem;
+}
+
+.age {
+    font-weight: 400;
+    color: var(--dark-gray-blue);
+}
+
+.location {
+    font-weight: 400;
+    color: var(--dark-gray-blue);
+    margin-top: 0.8rem;
+    margin-bottom: 1.5rem;
+}
+
+/* background circles styles */
+.topcirc {
+    width: clamp(35rem, 50rem, 100%);
+    aspect-ratio: 1;
+    position: absolute;
+    top: -20rem;
+    left: -10rem;
+}
+
+.botcirc {
+    width: clamp(35rem, 50rem, 100%);
+    aspect-ratio: 1;
+    position: absolute;
+    bottom: -20rem;
+    right: -10rem;
+}
+
+@media (max-width:35rem) {
+    .botcirc {
+        right: -20rem;
+        bottom: -8rem;
+    }
+
+    .topcirc {
+        left: -20rem;
+        top: -8rem;
+    }
+}
